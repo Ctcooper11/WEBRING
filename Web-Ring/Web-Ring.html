@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="webring.css" />
+  </head>
+
+  <body>
+    <div class="img-container">
+      <img src="img/purplefairy.gif" class="fairy-gif" />
+      <img src="img/page1-text 3.jpg" class="clouds1" />
+    </div>
+    <div class="img-container">
+      <img src="img/tropicalsparkle.GIF" class="pink-gif" />
+      <img src="img/frog-ridingbike.GIF" class="frog-gif" />
+      <img src="/img/page2-text.png" class="frog-dance" />
+    </div>
+    <div class="img-container">
+      <img src="/img/page3.png" class="clouds2" />
+      <img src="/img/Zdvw.gif" class="princess" />
+    
+    </div>
+    <div class="img-container"><img src="/img/cartooncloud+text 3.jpg" class="house" /></div>
+   
+    </div>
+
+    <a href="javascript:randomlinks()"
+    ><button class="button">Back</button></a
+      ><button class="randombutton">Random link!</button></a
+      ><button class="button">Next</button></a
+    
+    >
+
+    <script>
+      function randomlinks() {
+        var myrandom = Math.round(Math.random() * 5);
+        var links = new Array();
+        links[0] = "https://katiacarnevale.github.io/WebRing/";
+        links[1] = "https://elenikary.github.io/project3_web_ring/";
+        links[2] = "https://ayc325.github.io/DES070/Project3/index.html ";
+        links[3] = "https://avm325.github.io/WebRingProject/ ";
+        links[4] = "https://williammorano.github.io/DES-070/html/webring.html";
+        links[5] = "https://clarejachim.github.io/webring/";
+        links[6] =
+          "http://www.cse.lehigh.edu/~haz323/WebDesign/Project%203/index.html";
+        links[7] = "https://msh223.github.io/WebRing/";
+        links[8] = "https://mlk224.github.io/WebRing/";
+        window.location = links[myrandom];
+      }
+    </script>
+  </body>
+</html>
