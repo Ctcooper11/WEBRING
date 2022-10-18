@@ -1,0 +1,104 @@
+html{
+  margin: 0;
+}
+*
+{
+  font-family: 'Recoleta';
+  src: local('Recoleta SemiBold'), local('Recoleta-SemiBold'),
+      url('Recoleta-SemiBold.woff2') format('woff2'),
+      url('Recoleta-SemiBold.woff') format('woff'),
+      url('Recoleta-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  color: antiquewhite;
+}
+body
+{
+  background-image: url(img/repeating-blueclouds.PNG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+	
+}
+
+.img-container{
+  width: 100%;
+  position: relative;
+}
+
+.img-container > img {
+  width: 100%;
+  z-index:-1 ;
+}
+
+.img-container > img.pink-gif {
+  position: absolute;
+ top:0;
+ right: 0;
+ z-index:10;
+ width: 200px;
+}
+.img-container > img.fairy-gif {
+  position: absolute;
+ top:0;
+ right: 0;
+ z-index:10;
+ width: 260px;
+}
+.img-container > img.frog-gif {
+  position: absolute;
+ top:0;
+ right: 0;
+ z-index:10;
+ width: 300px;
+}
+.img-container > img.princess {
+  position: absolute;
+ bottom:0;
+ left: 0;
+ z-index:10;
+ width: 500px;
+}
+.randombutton{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  bottom:0;
+  right: 0;
+}
+.button {
+  background-color: palevioletred; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  
+}
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.randombutton {
+  transition-duration: 0.4s;
+}
+
+.randombutton:hover {
+  background-color: palevioletred; /* Green */
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
