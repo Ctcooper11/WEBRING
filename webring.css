@@ -83,23 +83,23 @@ position: relative;
 }
 
 .frog-bike1{ 
-  height: 50%;
+  height: 55%;
   width: 30%;
   z-index: 2;
   position: absolute;
   float: right;
-top: 7700px;
+top: 7600px;
 right: 20px;
   position:bottom;
 }
 
 .frog-bike2{ 
-  height: 50%;
+  height: 55%;
   width: 30%;
   z-index: 2;
   position: absolute;
   float: right;
-top: 7900px;
+top: 7800px;
 right: 20px;
 }
 
